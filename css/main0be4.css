@@ -379,7 +379,8 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
 .md_wheels .md_wheels_inn .md_wheels_img .bgspin {
     position: absolute;
     left: 106px;
-    bottom: 174px;animation: mymove 4s infinite;
+    bottom: 174px;
+    animation: mymove 4s infinite;
     width: 650px;
 }
 @keyframes mymove {
