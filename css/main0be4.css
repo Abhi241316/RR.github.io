@@ -176,7 +176,7 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
 
 .md_banner {
     width: 100%;
-    background: url(../images/bnr.webp) no-repeat center center;
+    background: url(../images/bnr.png) no-repeat center center;
     background-size: cover;
     padding: 360px 0 80px;position: relative;
 }
