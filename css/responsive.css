@@ -375,6 +375,7 @@ transform: translate(0px,-5px);
 	margin: 0 auto;
 	order: 0;
 }
+
 .md_header_inn .md_hdr_ctr .btmlogo {
 	width: 70px;
 	bottom: 8px;
@@ -557,8 +558,8 @@ body > div {
 	margin: 0 auto;
 }
 .md_cs .md_cs_inn .md_cs_rgt .md_logocs .btmlogo {
-	bottom: 0;
-	width: 120px;
+	bottom: -12px;
+	width: 83px;
 }
 .md_htp .md_htp_inn .md_htp_rgt {
 	width: 100%;

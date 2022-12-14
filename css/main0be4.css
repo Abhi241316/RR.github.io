@@ -475,8 +475,8 @@ display: block;}
 .md_cs .md_cs_inn .md_cs_rgt .md_logocs .btmlogo {
     position: absolute;
     left: 50%;
-    top:1%;
-    bottom: 0;
+    /* top:0%; */
+    bottom: 90%;
     transform: translate(-50%,0);
     width: 180px;
 }
