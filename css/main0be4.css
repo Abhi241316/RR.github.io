@@ -143,6 +143,8 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
     transform: translate(-50%,0);
     width: 150px;
 }
+
+
 .md_header_inn .md_hdr_ctr img{
     display: block;
 }
