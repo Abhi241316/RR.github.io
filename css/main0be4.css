@@ -138,10 +138,10 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
 .md_header_inn .md_hdr_ctr .btmlogo {
     position: absolute;
     left: 50%;
-    top: 0%;
+    top: 85%;
     bottom: 0;
     transform: translate(-50%,0);
-    width: 180px;
+    width: 150px;
 }
 .md_header_inn .md_hdr_ctr img{
     display: block;
