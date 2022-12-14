@@ -23,6 +23,7 @@
     max-width: 1680px;
 }
 }
+
 @media screen and (max-width:1550px) {
 	.md_banner_inn .md_banner_img {
 	right: -90px;

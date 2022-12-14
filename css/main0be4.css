@@ -655,6 +655,14 @@ display: block;}
         max-width: 547px !important;
     } */
 }
+
+@media screen and (max-width:750px) {
+    #bekaar{
+        margin-left: 20%;
+    }
+}
+
+
 .popuv{
     background-color: #fff;
     color: #000;
