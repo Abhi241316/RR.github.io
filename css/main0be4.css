@@ -138,7 +138,7 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
 .md_header_inn .md_hdr_ctr .btmlogo {
     position: absolute;
     left: 50%;
-    top: 85%;
+    top: 60%;
     bottom: 0;
     transform: translate(-50%,0);
     width: 150px;
@@ -147,7 +147,17 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
 
 .md_header_inn .md_hdr_ctr img{
     display: block;
+    position: relative;
+    margin-top: 100px;
 }
+
+@media screen and (max-width:450px){
+    .md_header_inn .md_hdr_ctr img{ display: block;
+    position: relative;
+    margin-top: 181px;
+}
+}
+
 .md_header_inn .md_hdr_rgt {
     width: 335px;
 }
@@ -659,6 +669,7 @@ display: block;}
 @media screen and (max-width:750px) {
     #bekaar{
         margin-left: 20%;
+        margin-bottom: 10px;
     }
 }
 
@@ -1025,4 +1036,13 @@ display: block;}
 .marbottm{
  margin-bottom: 46px;
  text-align: center;
+}
+
+#bekaar{
+    box-shadow: 2px 2px 2px 0px #0ff;
+}
+#bekaar:hover{
+    box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+    transition: all 0.5s;
+    cursor: pointer;
 }
