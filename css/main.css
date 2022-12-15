@@ -300,6 +300,7 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
     margin: 0 76px 0 0;
 }
 
+
 .md_wheels{width: 100%;position: relative; overflow: hidden; padding: 160px 0 195px; background: linear-gradient(to right, #C30101, #000000 70%);position: relative;}
 .md_wheels .md_girl {
     display: block;
@@ -866,13 +867,13 @@ display: block;}
 }
 
 .md_sites .md_sites_logo a {
-    transition: all 0.4s ease 0s;
+    /* transition: all 0.4s ease 0s;
     transform: translate(0px,50px);
-    opacity: 0;
+    opacity: 0; */
 }
 .md_sites .md_sites_logo a.active {
-    transform: translate(0px,0);
-    opacity: 1;
+    /* transform: translate(0px,0);
+    opacity: 1; */
 }
 .md_wheels .md_wheels_inn .md_wheels_con {
     transform: translate(100px,0);
