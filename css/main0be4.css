@@ -80,6 +80,10 @@ input[type="radio"]{-webkit-appearance:radio;}
 .main{ margin:0 auto; padding: 0 15px; max-width:1490px;}
 body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #fff;overflow-x: hidden;}
 
+body{
+    background-color: #000 !important;
+}
+
 .owl-carousel .owl-stage-outer {
 	overflow: visible;width: 100%;
 }
@@ -182,7 +186,7 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
     margin: 0 0 20px;
 }
 .md_header_inn .md_hdr_rgt .a_wa {
-    width: 273px;
+    width: 297px;
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -195,6 +199,7 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
 }
 .md_header_inn .md_hdr_rgt .a_wa:hover {
     box-shadow: 0 0 200px 60px #C29C5C inset;
+    box-sizing: border-box;
 }
 
 .md_banner {
@@ -218,11 +223,24 @@ body{ background: #000000;font-family: 'Gilroy'; font-weight: normal; color: #ff
     font-size: 30px;
     color: #FFFFFF;
     line-height: 40px;
-    margin: 0 0 12px;
+    margin: 70px 0 12px;
 }
+
+@media screen and (max-width:450px){
+    .md_banner_inn .md_banner_con h2 {
+        width: 100%;
+        max-width: 480px;
+        font-weight: 600;
+        font-size: 30px;
+        color: #FFFFFF;
+        line-height: 40px;
+        margin: 0px 0 12px;
+    }
+}
+
 .md_banner_inn .md_banner_con h1 {
     width: 100%;
-    font-size: 90px;
+    font-size: 50px;
     line-height: 90px;
     font-weight: 900;
     color: #fff;
@@ -1056,6 +1074,16 @@ display: block;}
     box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
     transition: all 0.5s;
     cursor: pointer;
+}
+
+#navuslider{
+    margin-left: 17%;
+}
+
+@media screen and (max-width:450px){
+    #navuslider{
+        margin:0;
+    }
 }
 
 

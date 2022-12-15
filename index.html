@@ -34,16 +34,166 @@
   fbq('track', 'PageView');
 </script>
 
+
+
+<style>
+	h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.container{
+	margin:auto;
+}
+
+</style>
 </head>
 
 <body>
 
-	<div class="md_sites" id="websites" >
+	<!-- #######TEST########### -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+	
+	
+	<div id="navuslider" class="container" style="background-color:black; position: relative; z-index: 9999; ">
+	 
+	   <section class="customer-logos slider">
+			<a href="https://gpr247.com/"> <div class="slide"><img src="./images/gpr000.png"></div></a>
+			<a href="https://diamond333.club/login"><div class="slide"><img src="./images/diamond000.png"></div></a>
+			<a href="https://runner777.com/"><div class="slide"><img src="./images/runner000.png"></div></a>
+			<a href="https://winzo247.com/#/home"> <div class="slide"><img src="./images/winzo000.png"></div></a>
+			<a href="https://tenxbet.com/login"><div class="slide"><img src="./images/tenx000.png"></div></a>
+			<a href="https://www.radheexch.com/"><div class="slide"><img src="./images/radhe000.png"></div></a>
+			<a href="https://matrixexch9.com/login"> <div class="slide"><img src="./images/matrix000.png"></div></a>
+	   </section>
+	</div>
+	<!-- ###################### -->
+	<!-- <div class="md_sites" id="websites" >
 		<div class="main">
-			<!-- <h2>Available Sites</h2> -->
+			<h2>Available Sites</h2>
 				<div class="md_banner_inn">
 				<div class="md_banner_con">
-					<!-- <h1>Available Sites</h1> -->
+					<h1>Available Sites</h1>
 					</div>
 					</div>
 			<div class="md_sites_logo">
@@ -63,7 +213,7 @@
 				
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNTNM2N" height="0" width="0"
@@ -189,7 +339,7 @@
 					<h1>Available Sites</h1>
 					</div>
 					</div>
-			<div class="md_sites_logo">
+			<!-- <div class="md_sites_logo">
 	
 				<a href="./tenx.html"><img class="s1" alt="" src="images/logo.png">
 				</a>
@@ -204,7 +354,20 @@
 				
 				</a>
 				
-			</div>
+			</div> -->
+			<div class="container" style="background-color:black; ">
+	 
+				<section class="customer-logos slider">
+					 <a href="https://gpr247.com/"> <div class="slide"><img src="./images/gpr000.png"></div></a>
+					 <a href="https://diamond333.club/login"><div class="slide"><img src="./images/diamond000.png"></div></a>
+					 <a href="https://runner777.com/"><div class="slide"><img src="./images/runner000.png"></div></a>
+					 <a href="https://winzo247.com/#/home"> <div class="slide"><img src="./images/winzo000.png"></div></a>
+					 <a href="https://tenxbet.com/login"><div class="slide"><img src="./images/tenx000.png"></div></a>
+					 <a href="https://www.radheexch.com/"><div class="slide"><img src="./images/radhe000.png"></div></a>
+					 <a href="https://matrixexch9.com/login"> <div class="slide"><img src="./images/matrix000.png"></div></a>
+				</section>
+			 </div>
+			
 		</div>
 	</div>
 
