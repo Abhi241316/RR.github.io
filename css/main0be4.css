@@ -93,6 +93,7 @@ body{
 
 .md_header {
     width: 100%; padding: 25px 0; position: absolute; left: 0; top: 0;z-index: 1;
+    margin-top:100px;
 }
 .md_header .main {
     max-width: 1460px;
@@ -409,8 +410,8 @@ body{
 }
 .md_wheels .md_wheels_inn .md_wheels_img {
     position: absolute;
-    left: -160px;
-    bottom: -230px;
+    left: 20px;
+    bottom: 85px;
     width: 100%;
     max-width: 1000px;
 }
@@ -1077,7 +1078,7 @@ display: block;}
 }
 
 #navuslider{
-    margin-left: 17%;
+    /* margin-left: 17%; */
 }
 
 @media screen and (max-width:450px){
@@ -1090,4 +1091,3 @@ display: block;}
 body{
 	background-color: black !important ;
 }
-
